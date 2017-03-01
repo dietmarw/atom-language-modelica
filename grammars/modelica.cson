@@ -115,8 +115,8 @@ patterns: [
     match: "[\"\\w\\)](\\s+\".*\"\\s*);"
   }
   {
-    begin: "\""
-    end: "\""
+    begin: "[^\\]\""
+    end: "[^\\]\""
     name: "constant.string"
     patterns: [
       {
